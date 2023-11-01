@@ -15,3 +15,7 @@ function TocaSomTim(){
     function TocaSomPuff(){
         document.querySelector('#som_tecla_puff').play()
         document.querySelector('Tecla_puff').onclick =TocaSomPuff;
+        function TocaSomSplash(){
+            document.querySelector('#som_tecla_splash').play()
+            document.querySelector('Tecla_splash').onclick =TocaSomPuff;
+            
