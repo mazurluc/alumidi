@@ -21,3 +21,6 @@ function TocaSomTim(){
             function TocaSomToim(){
                 document.querySelector('#som_tecla_toim').play()
                 document.querySelector('tecla_toim').onclick =TocaSomToim;
+                fuction TocaSomSplash(){
+                    document.querySelector('#som_tecla_psh').play()
+                    document.querySelector('tecla_psh').onclick =TocaSomPsh;
