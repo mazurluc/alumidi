@@ -27,4 +27,6 @@ function TocaSomTim(){
                     fuction TocaSomTic(){
                         document.querySelector('#som_tecla_tic').play()
                         document.querySelector('tecla_tic').onclick =TocaSomTic;
-                        
+                        fuction TocaSomTom(){
+                            document.querySelector('#som_tecla_tom').play()
+                            document.querySelector('tecla_tom').onclick =TocaSomTom;
